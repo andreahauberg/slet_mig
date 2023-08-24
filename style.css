@@ -1,1 +1,27 @@
+img{
+    width:100%;
+}
 
+.grid-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1em;
+    
+}
+
+@media(max-width:768px){
+    .grid-1-1{
+        grid-template-columns: 1fr;
+    }
+}
+
+article{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+footer{
+    text-align: center;
+    background-color: beige;
+}

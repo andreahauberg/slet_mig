@@ -1,48 +1,31 @@
-document.querySelector("h1").innerHTML= "<b>Min Side</b>";
-console.log("Min Side");
+document.querySelector("h1").innerHTML= "<b>Den Første & Den Anden</b>";
+console.log("footer");
 
-document.querySelector("figcaption").innerHTML = "<q>Min SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin Side</q>";
-console.log("Min Side");
+const article1H2 = document.querySelector("article:first-child h2").innerHTML = "<em>Den Første</em>";
+console.log("Article 1 H2:", article1H2);
 
-document.querySelector("h2").textContent = "Min Side";
-console.log("Min Side");
+const article1fig = document.querySelector("article:first-child figcaption").textContent = "Den FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen FørsteDen Første";
+console.log("Article 1 Figcaption:", article1fig);
 
-const info = document.querySelector("#info");
+const article2H2 = document.querySelector("article:nth-child(2) h2").innerHTML = "<em>Den Anden</em>";
+console.log("Article 2 H2:", article2H2);
 
-info.lastElementChild.textContent = "Min SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin Side";
-console.log("Min Side");
+const article2fig = document.querySelector("article:nth-child(2) figcaption").textContent = "Den AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen AndenDen Anden";
+console.log("Article 2 Figcaption:", article2fig);
 
-
-
+document.querySelector("footer").innerHTML= "<em>Den Første & Den Anden</em>";
+console.log("footer");
 
 document.querySelector(
-    ".article1 img"
+    "article:first-child img"
 ).src = "img/pose.png";
 
-document.querySelector(".article1").setAttribute("alt", "my new alt")
+document.querySelector("img:first-child").setAttribute("alt", "my new alt")
 console.log("My new alt");
 
 document.querySelector(
-    ".article2 img"
+    "article:nth-child(2) img"
 ).src = "img/pose2.png";
 
-document.querySelector(".article2").setAttribute("alt", "my new alt2")
+document.querySelector("article:nth-child(2) img").setAttribute("alt", "my new alt2")
 console.log("My new alt2");
-
-// document.querySelector(".art2").textContent = "Min Side";
-// console.log("Min Side");
-
-// document.querySelector(".fig2").textContent = "Min SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin Side";
-// console.log("Min Side");
-
-
-
-document.createElement("article3");
-console.log("new article")
-
-document.createElement("title3");
-console.log("new title")
-
-
-document.createElement("img3");
-console.log("new img")

@@ -13,6 +13,8 @@ info.lastElementChild.textContent = "Min SideMin SideMin SideMin SideMin SideMin
 console.log("Min Side");
 
 
+
+
 document.querySelector(
     ".article1 img"
 ).src = "img/pose.png";
@@ -33,3 +35,14 @@ console.log("My new alt2");
 // document.querySelector(".fig2").textContent = "Min SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin Side";
 // console.log("Min Side");
 
+
+
+document.createElement("article3");
+console.log("new article")
+
+document.createElement("title3");
+console.log("new title")
+
+
+document.createElement("img3");
+console.log("new img")

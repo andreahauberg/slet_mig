@@ -1,7 +1,7 @@
-document.querySelector("h1").textContent = "Min Side";
+document.querySelector("h1").innerHTML= "<b>Min Side</b>";
 console.log("Min Side");
 
-document.querySelector("figcaption").textContent = "Min SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin Side";
+document.querySelector("figcaption").innerHTML = "<q>Min SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin SideMin Side</q>";
 console.log("Min Side");
 
 document.querySelector("h2").textContent = "Min Side";

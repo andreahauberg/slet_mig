@@ -56,4 +56,12 @@ document.addEventListener("DOMContentLoaded", function() {
     // Tilføj det nye article til main-sektionen (eller en anden passende forælder)
     const mainSection = document.querySelector("section ");
     mainSection.appendChild(newArticle); 
+
+    const firstImage = document.querySelector("article:first-child img");
+
+    // Lyt efter klik på det første billede
+    firstImage.addEventListener("click", function() {
+        // Opdater billedets src attribut med den nye billedsti
+        firstImage.src = "img/gem_ring1.png"; // Erstat med stien til dit nye billede
+    });
 })

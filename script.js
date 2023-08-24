@@ -13,6 +13,20 @@ info.lastElementChild.textContent = "Min SideMin SideMin SideMin SideMin SideMin
 console.log("Min Side");
 
 
+document.querySelector(
+    ".article1 img"
+).src = "img/pose.png";
+
+document.querySelector(".article1").setAttribute("alt", "my new alt")
+console.log("My new alt");
+
+document.querySelector(
+    ".article2 img"
+).src = "img/pose2.png";
+
+document.querySelector(".article2").setAttribute("alt", "my new alt2")
+console.log("My new alt2");
+
 // document.querySelector(".art2").textContent = "Min Side";
 // console.log("Min Side");
 
